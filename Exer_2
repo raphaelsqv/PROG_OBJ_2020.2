@@ -1,0 +1,29 @@
+package Aula2;
+
+import java.util.Scanner;
+import java.util.*;
+
+public class Ex2RaphaelVieira
+{
+
+	private static final String Else = null;
+
+	public static void main(String[] args)
+	{
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Informe um numero para  a tabuada");
+		
+		int  numero = input.nextInt();
+
+		   for(int i = 1;i<=10;i++)
+		   		{
+			   		System.out.println(numero+" x "+i+" = "+numero * i);
+		   		}
+		}
+	
+			
+
+}
+
